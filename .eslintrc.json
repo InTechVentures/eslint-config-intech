@@ -5,7 +5,7 @@
     "quotes": [2, "double"],
     "prettier/prettier": [
       "error",
-      { "singleQuote": false, "trailingComma": "es5" }
+      { "singleQuote": false, "trailingComma": "es5", "tabWidth": 2, "useTabs": false }
     ],
     "import/order": [
       "error",
@@ -29,6 +29,7 @@
     "no-console": "off",
     "no-nested-ternary": "error",
     "@typescript-eslint/indent": "off",
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "react/no-unescaped-entities": "off",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-unused-vars": "off",
