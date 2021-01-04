@@ -17,6 +17,15 @@
         "newlines-between": "always"
       }
     ],
+    "prefer-destructuring": [
+      "error", {
+        "array": true,
+        "object": true
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
     "no-console": "off",
     "no-nested-ternary": "error",
     "@typescript-eslint/indent": "off",
