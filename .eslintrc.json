@@ -1,10 +1,37 @@
 {
   "extends": ["wesbos"],
+  "plugins": ["@typescript-eslint", "import-order-autofix"],
   "rules": {
     "quotes": [2, "double"],
     "prettier/prettier": [
       "error",
       { "singleQuote": false, "trailingComma": "es5" }
-    ]
+    ],
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "newlines-between": "always"
+      }
+    ],
+    "no-console": "off",
+    "no-nested-ternary": "error",
+    "@typescript-eslint/indent": "off",
+    "react/no-unescaped-entities": "off",
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-inferrable-types": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-object-literal-type-assertion": "off"
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
   }
 }
