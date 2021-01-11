@@ -36,7 +36,7 @@
     "no-nested-ternary": "error",
     "no-use-before-define": "off",
     "@typescript-eslint/indent": "off",
-    "react/jsx-boolean-value": "always",
+    "react/jsx-boolean-value": [2, "always"],
     "react/jsx-filename-extension": [
       2,
       { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
