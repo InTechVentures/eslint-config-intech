@@ -5,7 +5,12 @@
     "quotes": [2, "double"],
     "prettier/prettier": [
       "error",
-      { "singleQuote": false, "trailingComma": "es5", "tabWidth": 2, "useTabs": false }
+      {
+        "singleQuote": false,
+        "trailingComma": "es5",
+        "tabWidth": 2,
+        "useTabs": false
+      }
     ],
     "import/order": [
       "error",
@@ -18,7 +23,8 @@
       }
     ],
     "prefer-destructuring": [
-      "error", {
+      "error",
+      {
         "array": true,
         "object": true
       },
@@ -30,7 +36,11 @@
     "no-nested-ternary": "error",
     "no-use-before-define": "off",
     "@typescript-eslint/indent": "off",
-    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/jsx-boolean-value": "always",
+    "react/jsx-filename-extension": [
+      2,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
     "react/no-unescaped-entities": "off",
     "react/jsx-props-no-spreading": "off",
     "@typescript-eslint/camelcase": "off",
