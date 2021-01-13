@@ -32,6 +32,9 @@
         "enforceForRenamedProperties": false
       }
     ],
+
+    "max-len": [2, { "code": 80, "tabWidth": 2 }],
+    "no-shadow": "off",
     "no-console": "off",
     "no-nested-ternary": "off",
     "no-use-before-define": "off",
