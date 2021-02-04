@@ -33,13 +33,23 @@
       }
     ],
 
-    "max-len": [2, { "code": 80, "tabWidth": 2 }],
     "no-shadow": "off",
     "camelcase": "off",
     "no-console": "off",
-    "react/display-name": "off",
     "no-nested-ternary": "off",
+    "react/display-name": "off",
     "no-use-before-define": "off",
+    "no-unused-expressions": "off",
+    "max-len": [
+      2,
+      {
+        "code": 80,
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreRegExpLiterals": true,
+        "ignoreComments": true
+      }
+    ],
     "@typescript-eslint/indent": "off",
     "react/jsx-boolean-value": [2, "always"],
     "react/jsx-filename-extension": [
